@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  height: 54px;
+  padding: 0 24px;
+  width: 100%;
+  background: linear-gradient(90.76deg, #4800a4 41.12%, #9400da 99.66%), #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.148);
+}
+.Header-Content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header-Logo{
+  cursor: pointer;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.Header-Download{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.Header-Download-Button{
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #2EE4A3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 7px 12px;
+  transition: all .5s;
+  cursor: pointer;
+}
+.Header-Download-Button:hover{
+  transition: all .5s;
+  box-shadow: rgba(50, 50, 93, 0.135) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.135) 0px 18px 36px -18px inset;
+}
+@media screen and (max-width: 991px) {
+  .Header {
+    padding: 0 15px;
+  }
+}

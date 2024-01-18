@@ -1,0 +1,66 @@
+.Pdf-Viewer {
+  width: 100%;
+  height: calc(100vh - 114px);
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  padding-top: 10px;
+}
+
+.None-Pdf-Viewer {
+  width: 100%;
+  height: calc(100vh - 114px);
+  display: flex;
+  justify-content: left;
+  overflow-y: scroll;
+  padding-top: 10px;
+}
+.Pdf-Viewer-Download-Cover{
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.Pdf-Viewer-Download-Cover-Invisible{
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.Pdf-Viewer-Document{
+  transform-origin: top;
+}
+.None-Pdf-Viewer-Document{
+  transform-origin: top left;
+}
+
+.Pdf-Page {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  
+  position: relative;
+  overflow: hidden;
+}
+.Border{
+  border: 1px solid blue;
+  margin-bottom: 20px;
+}
+.None-Border{
+  border: none;
+  margin-bottom: 20px;
+}
+
+
+.PDFViewer-Img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  user-select: none;
+}

@@ -1,0 +1,88 @@
+.Main-ToolbarEditor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ToolbarEditor-Tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid #d4d4d4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.043);
+}
+.ToolbarEditor-Input {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  width: 50%;
+  font-size: 25px;
+  color: rgb(176, 176, 176);
+}
+.Img-Input {
+  position: absolute;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+  opacity: 0;
+}
+#ToolbarAddImage {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(150, 150, 150);
+}
+.ToolbarEditor-Zoom {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  width: 50%;
+  font-size: 25px;
+  color: rgb(176, 176, 176);
+}
+.Toolbar-Editor-Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ToolbarEditorZoom {
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(150, 150, 150);
+}
+
+.Toastify__close-button {
+  display: none; 
+}
+.Toastify__toast-container--bottom-center .Toastify__toast-body {
+  margin: auto 0;
+  -ms-flex: 1 1 auto;
+  flex: none;
+  padding: 2px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}

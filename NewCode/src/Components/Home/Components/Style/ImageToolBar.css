@@ -1,0 +1,74 @@
+.ImageToolBar-Main-ToolbarEditor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  color: rgb(176, 176, 176);
+}
+.None-ImageToolBar-Main-ToolbarEditor{
+  display: none;
+}
+.ImageToolBar-ToolbarEditor-Tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid #d4d4d4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.043);
+}
+.ImageToolBar-ToolbarEditor-Input {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  width: 50%;
+  font-size: 25px;
+  color: rgb(176, 176, 176);
+}
+.ImageToolBar-Img-Input {
+  margin-right: 5px;
+  width: 70px;
+  border-color: rgb(176, 176, 176);
+  color: rgb(82, 82, 82);
+}
+
+.ImageToolBar-ToolbarAddImage {
+  opacity: 0.6;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.ImageToolBar-ToolbarEditor-Zoom {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  width: 50%;
+  font-size: 25px;
+  color: rgb(176, 176, 176);
+}
+.ImageToolBar-Toolbar-Editor-Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(176, 176, 176);
+}
+#ImageToolBar-ToolbarEditorZoom {
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(150, 150, 150);
+}
